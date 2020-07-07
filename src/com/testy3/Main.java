@@ -31,7 +31,7 @@ public class Main {
         System.out.println("----------------");
         for (short miesiac = 1; miesiac <= lata * MIES_W_ROKU; miesiac++) {
             double balans = wylicz_Balans(kw_kredytu, opr_rocz, lata, miesiac);
-            System.out.println(NumberFormat.getCurrencyInstance().format(balans));
+            System.out.println(NumberFormat.getCurrencyInstance().format(balans)+"  kwota do spłacenia po "+miesiac+" spłacie  ");
         }
     }
 
