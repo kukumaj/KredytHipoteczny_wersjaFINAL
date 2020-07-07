@@ -22,7 +22,7 @@ public class Main {
         System.out.println();
         System.out.println("HIPOTEKA");
         System.out.println("--------");
-        System.out.println("Kredyt jeszcze do splacenia: " + hipotekaformatowanie);
+        System.out.println("Miesieczna rata : " + hipotekaformatowanie);
     }
 
     private static void drukuj_harmonogra_platnosci(int kw_kredytu, float opr_rocz, byte lata) {
